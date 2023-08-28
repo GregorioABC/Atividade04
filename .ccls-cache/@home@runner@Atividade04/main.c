@@ -70,3 +70,47 @@
 //   }
 //   return 0;
 // }
+//7.
+//   #include <stdio.h>
+//   #include <stdlib.h>
+//   int main(void) {
+//   float nota1,nota2,nota3;
+//   float media;
+//   printf("Digite a 1º nota ");
+//   scanf("%f",&nota1);
+//   printf("Digite a 2º nota ");
+//   scanf("%f",&nota2);
+//   printf("Digite a 3º nota ");
+//   scanf("%f",&nota3);
+  
+//   media=(nota1 +nota2 + nota3)/3;
+//   if(media<7){
+//     printf("O aluno está reprovado e tem %.2f de média",media);
+//   }else{
+//     printf("O aluno está aprovado e tem %.2f de média",media);
+//   }
+//   return 0;
+// }
+//8.
+// #include <stdio.h>
+//   #include <stdlib.h>
+//   int main(void) {
+//     char nome1[100];
+//     char nome2[100];
+//     printf("Digite o primeiro nome ");
+//     scanf("%s",nome1);
+//     printf("Digite o segundo nome");
+//     scanf("%s",nome2);
+
+//     int tamanho_nome1=strlen(nome1);
+//     int tamanho_nome2=strlen(nome2);
+//     if (tamanho_nome1 > tamanho_nome2) {
+//     printf("%s tem o maior número de caracteres.\n", nome1);
+//     } else if (tamanho_nome2 > tamanho_nome1) {
+//         printf("%s tem o maior número de caracteres.\n", nome2);
+//     } else {
+//         printf("Ambos os nomes têm o mesmo número de caracteres.\n");
+//     }
+
+//     return 0;
+// }
