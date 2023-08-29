@@ -114,3 +114,81 @@
 
 //     return 0;
 // }
+//9.
+//   #include <stdio.h>
+//   #include <stdlib.h>
+//   int main(void){
+//   char caractere;
+//     printf("Digite um caractere: ");
+//     scanf("%c", &caractere);
+//     if (caractere == 'a' || caractere == 'A' || 
+//         caractere == 'e' || caractere == 'E' ||
+//         caractere == 'i' || caractere == 'I' ||
+//         caractere == 'o' || caractere == 'O' ||
+//         caractere == 'u' || caractere == 'U') {
+//         printf("O caractere digitado é uma vogal.\n");
+//     }
+//     else if ((caractere >= 'a' && caractere <= 'z') || (caractere >= 'A' && caractere <= 'Z')) {
+//         printf("O caractere digitado é uma consoante.\n");
+//     }
+//     else {
+//         printf("O caractere digitado não é uma letra.\n");
+//     }
+//     return 0;
+// }
+//10.
+//  #include <stdio.h>
+//  #include <stdlib.h>
+//  int main(void){
+    // int num1,num2,num3;
+    //  printf("Digite o primeiro número: ");
+    // scanf("%d", &num1);
+
+    // printf("Digite o segundo número: ");
+    // scanf("%d", &num2);
+
+    // printf("Digite o terceiro número: ");
+    // scanf("%d", &num3);
+    // if (num1 > num2) {
+    //     int temp = num1;
+    //     num1 = num2;
+    //     num2 = temp;
+    // }
+    // if (num2 > num3) {
+    //     int temp = num2;
+    //     num2 = num3;
+    //     num3 = temp;
+    // }
+    // if (num1 > num2) {
+    //     int temp = num1;
+    //     num1 = num2;
+    //     num2 = temp;
+    // }
+    // printf("Os números em ordem crescente são: %d, %d, %d\n", num1, num2, num3);
+    // return 0;
+// }
+//11.
+//  #include <stdio.h>
+//  #include <stdlib.h>
+//  int main(void){
+    // float peso, altura;
+    // float imc;
+    // printf("Digite o peso (em kg): ");
+    // scanf("%f", &peso);
+    // printf("Digite a altura (em metros): ");
+    // scanf("%f", &altura);
+    // imc = peso / (altura * altura);
+    // printf("O IMC calculado é: %.2f\n", imc);
+    // if (imc < 18.5) {
+    //     printf("Categoria: Abaixo do peso\n");
+    // } else if (imc < 24.9) {
+    //     printf("Categoria: Peso normal\n");
+    // } else if (imc < 29.9) {
+    //     printf("Categoria: Sobrepeso\n");
+    // } else if (imc < 34.9) {
+    //     printf("Categoria: Obeso\n");
+    // } else {
+    //     printf("Categoria: Muito obeso\n");
+    // }
+    // return 0;
+//}
